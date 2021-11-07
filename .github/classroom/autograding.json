@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Line from 2 points - base case",
+      "setup": "g++ lines.cpp geom.hpp -o lines",
+      "run": "./lines",
+      "input": "c\r\nl\r\n0 0\r\n1 1",
+      "output": "1x + -1y + 0 = 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Line from 2 points - edge case",
+      "setup": "g++ lines.cpp geom.hpp -o lines",
+      "run": "./lines",
+      "input": "c\r\nl\r\n2 0\r\n2 2",
+      "output": "1x + 0y + -2 = 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Line from 2 points - random case",
+      "setup": "g++ lines.cpp geom.hpp -o lines",
+      "run": "./lines",
+      "input": "c\r\nl\r\n-2 0\r\n0 4",
+      "output": "2x + -1y + -4 = 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
