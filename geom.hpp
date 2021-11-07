@@ -21,42 +21,13 @@ ostream& operator<<(ostream& out, const Point& p) {
     return out;
 }
 
-/* struct Vector {
-    double x, y;
+istream& operator>>(istream& in, Point& p) {
+    in >> p.x;
+    in >> p.y;
+    
+    return in;
+}
 
-    Vector(double x, double y) : x(x), y(y) {}
-    Vector(const Point& p) : x(p.x), y(p.y) {}
-    Vector(const Point& p1, const Point& p2) : x(p2.x-p1.x), y(p2.y-p1.y) {}
-
-    Vector operator+(const Vector& v2) const {
-        return Vector(x+v2.x, y+v2.y);
-    }
-
-    Vector operator-() const {
-        return Vector(-x, -y);
-    }
-
-    Vector operator-(const Vector& v2) const {
-        return *this + (-v2);
-    }
-
-    Vector operator*(const double a) const {
-        return Vector(a*x, a*y);
-    }
-
-    double operator*(const Vector& v2) const {
-        return x*v2.x + y*v2.y;
-    }
-
-    void print(ostream& out) const {
-        out<< "("<< x<< ", "<< y<< ")";
-    }
-};
-
-ostream& operator<<(ostream& out, const Vector& v) {
-    v.print(out);
-    return out;
-} */
 
 struct Line {
     double A, B, C;
@@ -64,7 +35,9 @@ struct Line {
     Line(double A = 0, double B = 0, double C = 0) : A(A), B(B), C(C) {}
 
     Line(const Point& p1, const Point& p2) {
-        A = 0; B = 0; C = 0;
+        A = p1.y - p2.y; 
+        B = p2.x - p1.x; 
+        C = -(A*p1.x+B*p1.y);
     }
 
     bool parallel(const Line& other) const {
@@ -91,4 +64,12 @@ struct Line {
 ostream& operator<<(ostream& out, const Line& l) {
     l.print(out);
     return out;
+}
+
+istream& operator>>(istream& in, Line& l) {
+    in >> l.A;
+    in >> l.B;
+    in >> l.C;
+    
+    return in;
 }
