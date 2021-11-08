@@ -61,7 +61,7 @@
       "points": null
     },
     {
-      "name": "1",
+      "name": "Collinear from line and point - base case",
       "setup": "g++ lines.cpp geom.hpp -o lines",
       "run": "./lines",
       "input": "",
@@ -81,7 +81,7 @@
       "points": null
     },
     {
-      "name": "3",
+      "name": "Collinear from line and point - random case",
       "setup": "g++ lines.cpp geom.hpp -o lines",
       "run": "./lines",
       "input": "",
@@ -101,7 +101,7 @@
       "points": null
     },
     {
-      "name": "5",
+      "name": "Check if 2 lines are perpendicular - edge case",
       "setup": "g++ lines.cpp geom.hpp -o lines",
       "run": "./lines",
       "input": "",
@@ -121,7 +121,7 @@
       "points": null
     },
     {
-      "name": "7",
+      "name": "Perpendicular from line and point - base case",
       "setup": "g++ lines.cpp geom.hpp -o lines",
       "run": "./lines",
       "input": "",
