@@ -29,6 +29,126 @@
       "comparison": "included",
       "timeout": 10,
       "points": null
+    },
+    {
+      "name": "Check if 2 lines are parallel - base case",
+      "setup": "g++ lines.cpp geom.hpp -o lines",
+      "run": "./lines",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Check if 2 lines are parallel - edge case",
+      "setup": "g++ lines.cpp geom.hpp -o lines",
+      "run": "./lines",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Check if 2 lines are parallel - random case",
+      "setup": "g++ lines.cpp geom.hpp -o lines",
+      "run": "./lines",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "1",
+      "setup": "g++ lines.cpp geom.hpp -o lines",
+      "run": "./lines",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Collinear from line and point - edge case",
+      "setup": "g++ lines.cpp geom.hpp -o lines",
+      "run": "./lines",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "3",
+      "setup": "g++ lines.cpp geom.hpp -o lines",
+      "run": "./lines",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "4",
+      "setup": "g++ lines.cpp geom.hpp -o lines",
+      "run": "./lines",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "5",
+      "setup": "g++ lines.cpp geom.hpp -o lines",
+      "run": "./lines",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "6",
+      "setup": "g++ lines.cpp geom.hpp -o lines",
+      "run": "./lines",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "7",
+      "setup": "g++ lines.cpp geom.hpp -o lines",
+      "run": "./lines",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "8",
+      "setup": "g++ lines.cpp geom.hpp -o lines",
+      "run": "./lines",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "9",
+      "setup": "g++ lines.cpp geom.hpp -o lines",
+      "run": "./lines",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
     }
   ]
 }
