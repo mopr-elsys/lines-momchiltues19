@@ -111,7 +111,7 @@
       "points": null
     },
     {
-      "name": "6",
+      "name": "Check if 2 lines are perpendicular - random case",
       "setup": "g++ lines.cpp geom.hpp -o lines",
       "run": "./lines",
       "input": "",
@@ -141,7 +141,7 @@
       "points": null
     },
     {
-      "name": "9",
+      "name": "Perpendicular from line and point - random case",
       "setup": "g++ lines.cpp geom.hpp -o lines",
       "run": "./lines",
       "input": "",
