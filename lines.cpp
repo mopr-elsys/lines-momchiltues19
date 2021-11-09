@@ -13,17 +13,17 @@ int main () {
         switch(input) {
         case 'l': // line from two points
             cin >> p1 >> p2;
-            cout << Line(p1, p2);
+            cout << Line(p1, p2) << endl;
             break;
         case 'c': // collinear line from line and a point
             cin >> l1;
             cin >> p1;
-            cout << l1.parallel(p1);
+            cout << l1.parallel(p1) << endl;
             break;
         case 'o': // orthogonal/perpendicular line from a line and a point
             cin >> l1;
             cin >> p1;
-            cout << l1.perpendicular(p1);
+            cout << l1.perpendicular(p1) << endl;
             break;
         }
         break;
